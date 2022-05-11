@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/mathjs@10.2.0/lib/browser/math.js"></script>
+        <script src="https://cdn.plot.ly/plotly-1.35.2.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/gpu.js@latest/dist/gpu-browser.min.js"></script>
+        <script src="./opencv.js"></script>
+        -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.13.0"></script> -->
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <!-- 
+        <h3>Antes da Normalização</h3>
+        <div id="plot1"></div>
+        <h3>Depois da Normalização</h3>
+        <div id="plot2"></div> 
+        -->
+        <h3>Decision Boudary</h3>
+        <div id="plot0"></div>
+        <h3>Curva de Aprendizado</h3>
+        <div id="plot3"></div>
+        <main></main>       
+    </body>
+    
+    <script src="math.js"></script>
+    <script src="plot.js"></script>
+    <!--
+    <script src="rbf.js"></script>
+    -->
+    <script src="wList.js"></script>
+    <script src="mlp.js"></script>
+    <script src="imageProcessing.js"></script>
+    <!-- 
+       
+    <script src="dados.js"></script> 
+    -->  
+</html>
